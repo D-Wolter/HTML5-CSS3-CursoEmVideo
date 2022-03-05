@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formataçoes2</title>
+</head>
+<body>
+    <h1>Outras formataçoes</h1>
+    
+    <h2>Código fonte</h2>
+    <p>O comando document.getElementById("text") é escrito em linguagem JavaScript</p>
+    <p>O comando <code>document.getElementById("text")</code> é escrito em linguagem JavaScript</p>
+
+    <code><!--code serve para deixar o espacamento monoespaçado, tamano iguais para todos os digitos melhora a leitura de codigos-->
+        num = int(input('digite um numero'))
+        if num % 2 == 0:
+            print('O numero {num} é PAR')
+        else:
+            print('O numero {num} é IMPAR')
+        print('fim do Programa')
+    </code>
+
+
+    <pre><!--pre fixar os espaços e quebras de linha como parte do Hipertexto-->
+        <code>
+    num = int(input('digite um numero'))
+    if num % 2 == 0:
+        print('O numero {num} é PAR')
+    else:
+        print('O numero {num} é IMPAR')
+    print('fim do Programa')
+        </code>
+    </pre>
+
+    <p>Como diria o pai de um amigo O computador é um burro muito rápido</p>
+    <p>Como diria o pai de um amigo <q>O computador é um burro muito rápido</q></p><!--poe aspas mais semantica-->
+
+    <h2>segundo Buda</h2>
+    <blockquote cite="https://www.bertrand.pt/livro/buda-shakyamuni-hsing-yun/23083262">
+        Se acorda esta esticada demais arrebenta, se esta frouxa nao toca.
+    </blockquote><!--Opcao cite serve para referenciar a nivel de direitos autorais-->
+
+    <h2>Abreviaçoes</h2>
+    <p>Estou estdando HTML e CSS. muito bom</p>
+    <p>Estou estdando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. muito bom</p><!--cria um mini pop up com o valor title-->
+
+    <h2>
+    invertendo
+    </h2>
+    <p><bdo dir="rtl">Daniel Wolter Martins</bdo></p><!--Temos opcao (rtl e ltr) left to right, rigt to left-->
+</body>
+</html>
