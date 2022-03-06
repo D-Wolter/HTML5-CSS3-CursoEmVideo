@@ -12,100 +12,177 @@
             margin: 0px;
             padding: 0px;
             font-family: 'Raleway', sans-serif;
-            
         }
         body {
             background-color: rgb(143, 143, 143);
             margin: 0%;
         }
         nav {
-            background-color: rgb(58, 58, 58);
+            background-color: rgb(190, 100, 40);
+            
             color: antiquewhite;
             text-align-last: right;
             font-family: 'Raleway', sans-serif;
-            font-style: 200;
-            
             height: 40px;
-            padding-top: 5px;
-            padding-right: 10px;
-            padding-bottom: 10px;
+            padding-top: 1px;
+            padding-right: 6px;
+            padding-bottom: 12px;
             margin-bottom: -27px;
+            
         }
         nav > a {
             font-family: 'Raleway', sans-serif;
-            color: rgb(190, 100, 40);
-            padding-right: 6px;
-            font-size: 13px;
+            text-decoration: none;
+            color: rgb(22, 22, 22);
+            padding: 6px;
+        
+            font-size: 8px;
+            font-weight: 800;
+            
         }
+        nav > a:hover {
+            background-color: rgb(51, 51, 51);
+            color:rgb(190, 100, 40);
+            transition-duration: 0.5s;
+        }
+        
         header {
             color: beige;
             background-color: black;
+            
         }
         header > p#fln {
             font-family: 'Raleway', sans-serif;
-            font-size: 13px;
+            font-size: 11px;
+            font-weight: 300;
             margin-top: 0;
             text-align-last: right;
             padding-right: 20px;
             padding-top: 5px;
-            margin-bottom: 0px;
-            color: rgb(102, 102, 102);
+            margin-bottom: 6px;
+            color: rgb(141, 141, 141);
         }
         header > p#email {
             font-family: 'Raleway', sans-serif;
+            font-weight: 300;
             text-align-last: right;
             padding-right: 20px;
             margin-top: 0px;
             margin-bottom: 0px;
-            font-size: 13px;
+            font-size: 10px;
         }
+        header > p#email:hover {
+            text-decoration: underline;
+        }
+
         header > p#cont {
             font-family: 'Raleway', sans-serif;
+            font-weight: 300;
             text-align-last: right;
             padding-right: 20px;
             padding-bottom: 10px;
             margin-top: 0px;
             margin-bottom: 0px;
-            font-size: 13px;
+            font-size: 10px;
+        }
+        header > p#cont:hover {
+            text-decoration: underline;
         }
         header > h1 {
-            padding-left: 30px;
+            margin-left: 120px;
             font-family: 'Raleway', sans-serif;
             font-style: Bold;
-            font-size: 50px;
+            font-size: 25px;
             margin-bottom: 0px;
-            margin-top: 3px;
+            margin-top: -70px;
         }
         header > h2 {
             font-family: 'Raleway', sans-serif;
             padding-left: 120px;
-            margin-top: -26px;
+            
             padding-bottom: 0px;
             color: rgb(190, 100, 40);
+            font-size: 15px;
             
-        }
+            }
         main {
             min-width: 280px;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
             margin: auto;
         }
         img {
             width: 100%;
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
+            
         }
         header > img#hand {
             width: 70px;
             border-radius: 10px;
-            margin-left: 580px;
-            margin-top: -40px;
+            margin-left: 30px;
+            margin-top: 0px;
+            }
+        main > picture > source {
+            max-width: 320px;
             
+        }
+        main > div {
+            max-width: 920px;
+            margin: auto;
+            padding-bottom: 50px;
+            border-radius: 7px;
+            background-color: aliceblue;
+        }
+        main > div > h2 {
+            color: rgb(190, 100, 40);
+            font-size: 15px;
+            font-weight: 400;
+            margin:auto;
+            max-width: 790px;
+            text-align: center;
+            text-indent: 30px;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            line-height: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        main > div > h2 > strong {
+            color: black;
+        }
+
+        main > div > div#trab {
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        main > div > div#trab img {
+            width: 200px;
+            padding: 8px;
+            
+            margin: auto;
+            
+            display: flexbox;
+            font-family: 'Raleway', sans-serif;
+            
+        }
+        main > div > div >p {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 300;
             
             
         }
-
-
+        footer > p {
+            text-align: center;
+            color: rgb(190, 100, 40);
+            background-color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -117,26 +194,71 @@
         <a href="#">contatos</a>
     </nav>
     <header>
-        <p id="fln">Localizado em Floriaópolis - Atendemos todo o Brasil</p>
-        
-        <h1>DW - Fine Art Restorer</h1><img id="hand" src="imagens/hand.png" alt="">
+        <p id="fln">Localizado em Florianópolis SC- Atendemos todo o Brasil</p>
+        <img id="hand" src="imagens/hand.png" alt=""><h1>DW - Fine Art Restorer</h1>
         <h2>Restauros e réplicas de obras de arte.</h2>
         <p id="email">email: wolter.daniel@gmail.com</p>
         <p id="cont">contato whatsapp (48) 99923-8985</p>
-        
-        
-        
-        
-
-    </header>
+        </header>
     <main>
-        
         <picture>
             <source media="(max-width:800px)" srcset="imagens/fotoreduzida.png"> 
-
             <img src="imagens/capa.png" title="image/png" /></a>
         </picture>
-    
+        <div >
+            <h2>No Studio de arte <strong id="dw">DW - Fine Art Restorer</strong> trazemos soluções para restauração desde objetos de valor sentimental até Restituição e réplicas de esculturas de pequeno a grande porte, Recuperação e revitalização de mármores, Moldagem de elementos de faixadas ornamentadas para reposição, Recuperação e réplicas de mosaicos, Móveis rústicos de demolição sob medida.</h2>
+            <div id="trab">
+                <p>Quinta Real de Caxias (Portugal), restauro e réplicas do conjuntos escultóricos em terracota do escultor portugues Joaquim Machado de Castro sec XVII, (esculturas fontenárias das estações: Primavera, Verão, Outono e Inverno).</p>
+                <img src="imagens/primavera.png" title="Escultura Fontenária da Primavera" /></a>
+                <img src="imagens/verao.png" title="Escultura Fontenária do  Verão" /></a>
+                <img src="imagens/outono.png" title="Escultura Fontenária do Outono" /></a>
+                <img src="imagens/inverno.png" title="Escultura Fontenária do Inverno" /></a>
+                <p>Quinta Real de Caxias (Portugal), restauro e réplicas do conjuntos escultóricos em terracota do escultor portugues Joaquim Machado de Castro sec XVII, (esculturas: Ceres, Guerreiro Romano, Jupiter, Narciso).</p>
+                <img src="imagens/ceres.png" title="Escultura Ceres" /></a>
+                <img src="imagens/guerreiro.png" title="Escultura Guerreiro Romano" /></a>
+                <img src="imagens/jupiter.png" title="Escultura Jupiter" /></a>
+                <img src="imagens/narciso.png" title="Escultura Narciso" /></a>
+                <p>Quinta Real de Caxias (Portugal), restauro e réplicas do conjuntos escultóricos em terracota do escultor portugues Joaquim Machado de Castro sec XVII, (esculturas: Flora Farnesio, Flora, Leandro, Banho de Diana).</p>
+                <img src="imagens/farnesio.png" title="Escultura Flora Farnesio" /></a>
+                <img src="imagens/flora.png" title="Escultura Flora" /></a>
+                <img src="imagens/leandro.png" title="Escultura Leandro" /></a>
+                <img src="imagens/diana.png" title="Escultura Banho de Diana" /></a>
+                <p>Quinta Real de Caxias (Portugal), restauro da estrutura edificada da casacata, do aquario monumental, da cegonha em fiança, sec XVII, .</p>
+                <img src="imagens/quinta.png" title="Quinta Real de Caxias (Portugal)" /></a>
+                <img src="imagens/edificio.png" title="Etrutura edificada da Quinta Real de Caxias (Portugal)" /></a>
+                <img src="imagens/cegonha.png" title="Cegonha em Fiança (Quinta Real de Caxias)" /></a>
+                <img src="imagens/aquario.png" title="Aquario Monumental da Cascata da Quinta Real de Caxias" /></a>
+                <p>trabalhos executados em São Paulo (Palacete Toledo Lara, Edifício do Tribunal de Justiça, Fonte Monumental da Avenida São João).</p>
+                <img src="imagens/toledo.png" title="Esculturas da faixada do edifício Palacete Toledo Lara SP" /></a>
+                <img src="imagens/pinaculos.png" title="Pinâculos da faixada do edifício Palacete Toledo Lara SP" /></a>
+                <img src="imagens/tribunal.png" title="Forro Ornamentado do Tribunal de Justiça SP" /></a>
+                <img src="imagens/fonte.png" title="Fonte Monumental da Avenida São João SP" /></a>
+                <p>Réplicas de arte antiga em Portugal (Marco Miliario Romano sec II a.c, Mosaico Romano de Apolo sec IV, Escultura Bicéfala de Portugal).</p>
+                <img src="imagens/marco.png" title="Marco Romano da vias Romanas em Portugal sec II a.c." /></a>
+                <img src="imagens/mosaico.png" title="Mosaico Romano de Apolo (Coimbra Portugal sec IV)" /></a>
+                <img src="imagens/bicefala.png" title="Escultura Fonte Bicéfala de Portugal sec XVI" /></a>
+                <p>Restauros de esculturas de faixadas em Florianópolis.</p>
+                <img src="imagens/fibra.png" title="Escultura em fibra de vidro com pintura automotiva" /></a>
+                <img src="imagens/cimento.png" title="Escultura em cimento" /></a>
+                <img src="imagens/replicas.png" title="Réplicas de pequenas esculturas" /></a>
+                <p>Restauro dos 8 altares em mármore da Igreja de São Luis do Paraitinga (Tolosa SP) sec XVIII (Altares: Mor, Nossa Sra das Dores, São Vicente, Santíssimo).</p>
+                <img src="imagens/altarmor.jpg" title="Altar Mor da Igreja de São Luis de Tolosa SP" /></a>
+                <img src="imagens/altarDores.jpg" title="Altar de Nossa Sra das Dores da Igreja de São Luis de Tolosa SP" /></a>
+                <img src="imagens/altarSV.png" title="Altar São Vicente e N. Sra. da Aparecida da Igreja de São Luis de Tolosa SP" /></a>
+                <img src="imagens/altarSan.png" title="Altar do Santíssimo da Igreja de São Luis de Tolosa SP" /></a>
+                <p>Restauro dos 8 altares em mármore da Igreja de São Luis do Paraitinga (Tolosa SP) sec XVIII (Altares de: São Braz, Sta Cecília, Sta Trezinha, Sto Antônio).</p>
+                <img src="imagens/braz.png" title="Altar São Braz da Igreja de São Luis de Tolosa SP" /></a>
+                <img src="imagens/cecilia.png" title="Altar Sta Cecília da Igreja de São Luis de Tolosa SP" /></a>
+                <img src="imagens/antonio.png" title="Altar Sto Antônio da Igreja de São Luis de Tolosa SP" /></a>
+                <img src="imagens/terezinha.png" title="Altar Sta Terezinha da Igreja de São Luis de Tolosa SP" /></a>
+                
+            </div>
+            
+        </div>
+        
     </main>
+    <footer>
+        <p>Development, Design by Dwolter</p>
+    </footer>
 </body>
 </html>
