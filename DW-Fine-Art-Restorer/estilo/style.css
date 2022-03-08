@@ -46,47 +46,24 @@ header {
     background-color: black;
     position: fixed;
     width: 100%;
-    height: 150px;
+    height: 18vh;
     margin-top: 30px;
-    min-height: 8vw;
+    min-height: 7vw;
     
     
 }
-header > p#fln {
+header div > p#fln {
     font-family: 'Raleway', sans-serif;
-    font-size: 1vw;
+    font-size: 10px;
+    
     font-weight: 300;
     margin-top: 0;
     text-align-last: right;
     padding-right: 20px;
+    padding-bottom: 10px;
     padding-top: 5px;
     margin-bottom: 6px;
     color: rgb(141, 141, 141);
-}
-header > p#email {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    text-align-last: right;
-    padding-right: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 13px;
-}
-header > p#email:hover {
-    text-decoration: underline;
-}
-
-header > a#cont {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    text-align-last: right;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 13px;
-    text-decoration: none;
-    color: antiquewhite;
 }
 header > a#cont:hover {
     text-decoration: underline;
@@ -100,22 +77,26 @@ header > a#cont::after {
     color: antiquewhite;
     text-decoration: none;
 }
-header > h1 {
+header > div#logo {
+    position: absolute;
+}
+header > div > h1 {
     margin-left: 120px;
     font-family: 'Raleway', sans-serif;
     font-style: Bold;
-    font-size: 3vw;
+    font-size: 4vw;
+    
     margin-bottom: 0px;
     margin-top: -80px;
     
 }
-header > h2 {
+header > div> h2 {
     font-family: 'Raleway', sans-serif;
     padding-left: 120px;
     
     padding-bottom: 10px;
     color: rgb(190, 100, 40);
-    font-size: 2vw;
+    font-size: 20px;
     
 }
 header > div {
@@ -130,12 +111,12 @@ header > div >section {
 header > div > section > a {
     color: antiquewhite;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
 }
 header > div > section > p {
     color: antiquewhite;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 main {
@@ -160,7 +141,8 @@ img {
     width: 100%;
     
 }
-header > img#hand {
+header > div > img#hand {
+    
     width: 70px;
     border-radius: 10px;
     margin-left: 30px;
