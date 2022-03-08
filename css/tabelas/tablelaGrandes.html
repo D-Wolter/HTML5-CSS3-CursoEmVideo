@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: goldenrod;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: antiquewhite;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(190, 190, 155);
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num {
+            text-align: right;
+            width: 40px;
+        }
+    </style> <!--   Pseudo classe (para todas as Tags tr dentro de tbody)
+    tbody > tr:nth-child(2n)  Para fazer zebrado pulando de dois em dois
+    tbody > tr:nth-child(odd) Para todos itens impar(odd)
+    tbody > tr:nth-child(even) Para todos itens par(even) 
+    
+-->
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--Anatomia tabelas grandes
+    TABLE
+        CAPTION - Descriçao deo conteudo
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, Th
+
+            th -> titulos
+            td -> conteudos
+        -->
+    <table>
+        <caption>Populaçao dos Estados Brasileriros</caption>
+        <thead>
+            <tr>
+                <th>Estados</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">58.876</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">5.866.876</td>
+            </tr>
+            <tr>
+                <td>Rio de JAneiro</td>
+                <td class="num">66.876</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">56.866.876</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">866.876</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">566.876</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sual</td>
+                <td class="num">12.866.876</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">25.866.876</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">78.866.876</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">120.866.876</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">58.876</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">5.866.876</td>
+            </tr>
+            <tr>
+                <td>Rio de JAneiro</td>
+                <td class="num">66.876</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">56.866.876</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">866.876</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">566.876</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sual</td>
+                <td class="num">12.866.876</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">25.866.876</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">78.866.876</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">120.866.876</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">58.876</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">5.866.876</td>
+            </tr>
+            <tr>
+                <td>Rio de JAneiro</td>
+                <td class="num">66.876</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">56.866.876</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">866.876</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">566.876</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sual</td>
+                <td class="num">12.866.876</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">25.866.876</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">78.866.876</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">120.866.876</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total Habitantes</th>
+                <td class="num"><strong>999.9999.9999.9999</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas
+        a quidem ipsa aliquam, tempore doloribus facere nemo voluptate dolorum quam 
+        delectus ipsam aperiam distinctio voluptates in rem voluptatum 
+        Lorem 
+            ipsum dolor sit amet consectetur adipisicing elit. Quibusdam incidunt voluptatibus
+             sequi libero, ipsa nostrum quod. Veniam alias quos, ipsum eligendi qui fugiat 
+             dolor voluptatem cum incidunt similique ullam 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque nisi deleniti inventore,
+              maxime dicta! Nobis tempore expedita explicabo voluptates et at voluptatem odio, molestias
+               deserunt debitis assumenda magnam iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Laborum, ratione aut? Nisi facere et, nihil maxime quaerat fuga reprehenderit impedit ab eveniet 
+               veniam porro aperiam voluptate? Molestiae dolore exercitationem adipisci! Lorem ipsum, dolor sit amet 
+               consectetur adipisicing elit. Dolorem soluta rem vitae. Autem accusantium dolores, illum dolore earum 
+               officia numquam unde exercitationem a alias! Architecto molestiae dolorum libero totam quidem. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore nisi maxime quia, excepturi harum ea vero. 
+                Sunt explicabo incidunt eaque odio ipsum. Explicabo, maxime. Voluptas accusamus maxime excepturi soluta?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas
+                a quidem ipsa aliquam, tempore doloribus facere nemo voluptate dolorum quam 
+                delectus ipsam aperiam distinctio voluptates in rem voluptatum 
+                Lorem 
+                    ipsum dolor sit amet consectetur adipisicing elit. Quibusdam incidunt voluptatibus
+                     sequi libero, ipsa nostrum quod. Veniam alias quos, ipsum eligendi qui fugiat 
+                     dolor voluptatem cum incidunt similique ullam 
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque nisi deleniti inventore,
+                      maxime dicta! Nobis tempore expedita explicabo voluptates et at voluptatem odio, molestias
+                       deserunt debitis assumenda magnam iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Laborum, ratione aut? Nisi facere et, nihil maxime quaerat fuga reprehenderit impedit ab eveniet 
+                       veniam porro aperiam voluptate? Molestiae dolore exercitationem adipisci! Lorem ipsum, dolor sit amet 
+                       consectetur adipisicing elit. Dolorem soluta rem vitae. Autem accusantium dolores, illum dolore earum 
+                       officia numquam unde exercitationem a alias! Architecto molestiae dolorum libero totam quidem. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore nisi maxime quia, excepturi harum ea vero. 
+                        Sunt explicabo incidunt eaque odio ipsum. Explicabo, maxime. Voluptas accusamus maxime excepturi soluta?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas
+                        a quidem ipsa aliquam, tempore doloribus facere nemo voluptate dolorum quam 
+                        delectus ipsam aperiam distinctio voluptates in rem voluptatum 
+                        Lorem 
+                            ipsum dolor sit amet consectetur adipisicing elit. Quibusdam incidunt voluptatibus
+                             sequi libero, ipsa nostrum quod. Veniam alias quos, ipsum eligendi qui fugiat 
+                             dolor voluptatem cum incidunt similique ullam 
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque nisi deleniti inventore,
+                              maxime dicta! Nobis tempore expedita explicabo voluptates et at voluptatem odio, molestias
+                               deserunt debitis assumenda magnam iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                               Laborum, ratione aut? Nisi facere et, nihil maxime quaerat fuga reprehenderit impedit ab eveniet 
+                               veniam porro aperiam voluptate? Molestiae dolore exercitationem adipisci! Lorem ipsum, dolor sit amet 
+                               consectetur adipisicing elit. Dolorem soluta rem vitae. Autem accusantium dolores, illum dolore earum 
+                               officia numquam unde exercitationem a alias! Architecto molestiae dolorum libero totam quidem. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore nisi maxime quia, excepturi harum ea vero. 
+                                Sunt explicabo incidunt eaque odio ipsum. Explicabo, maxime. Voluptas accusamus maxime excepturi soluta?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas
+                                a quidem ipsa aliquam, tempore doloribus facere nemo voluptate dolorum quam 
+                                delectus ipsam aperiam distinctio voluptates in rem voluptatum 
+                                Lorem 
+                                    ipsum dolor sit amet consectetur adipisicing elit. Quibusdam incidunt voluptatibus
+                                     sequi libero, ipsa nostrum quod. Veniam alias quos, ipsum eligendi qui fugiat 
+                                     dolor voluptatem cum incidunt similique ullam 
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque nisi deleniti inventore,
+                                      maxime dicta! Nobis tempore expedita explicabo voluptates et at voluptatem odio, molestias
+                                       deserunt debitis assumenda magnam iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Laborum, ratione aut? Nisi facere et, nihil maxime quaerat fuga reprehenderit impedit ab eveniet 
+                                       veniam porro aperiam voluptate? Molestiae dolore exercitationem adipisci! Lorem ipsum, dolor sit amet 
+                                       consectetur adipisicing elit. Dolorem soluta rem vitae. Autem accusantium dolores, illum dolore earum 
+                                       officia numquam unde exercitationem a alias! Architecto molestiae dolorum libero totam quidem. Lorem
+                                        ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore nisi maxime quia, excepturi harum ea vero. 
+                                        Sunt explicabo incidunt eaque odio ipsum. Explicabo, maxime. Voluptas accusamus maxime excepturi soluta?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptas
+                                        a quidem ipsa aliquam, tempore doloribus facere nemo voluptate dolorum quam 
+                                        delectus ipsam aperiam distinctio voluptates in rem voluptatum 
+                                        Lorem 
+                                            ipsum dolor sit amet consectetur adipisicing elit. Quibusdam incidunt voluptatibus
+                                             sequi libero, ipsa nostrum quod. Veniam alias quos, ipsum eligendi qui fugiat 
+                                             dolor voluptatem cum incidunt similique ullam 
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque nisi deleniti inventore,
+                                              maxime dicta! Nobis tempore expedita explicabo voluptates et at voluptatem odio, molestias
+                                               deserunt debitis assumenda magnam iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                               Laborum, ratione aut? Nisi facere et, nihil maxime quaerat fuga reprehenderit impedit ab eveniet 
+                                               veniam porro aperiam voluptate? Molestiae dolore exercitationem adipisci! Lorem ipsum, dolor sit amet 
+                                               consectetur adipisicing elit. Dolorem soluta rem vitae. Autem accusantium dolores, illum dolore earum 
+                                               officia numquam unde exercitationem a alias! Architecto molestiae dolorum libero totam quidem. Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore nisi maxime quia, excepturi harum ea vero. 
+                                                Sunt explicabo incidunt eaque odio ipsum. Explicabo, maxime. Voluptas accusamus maxime excepturi soluta?</p>
+</body>
+
+</html>
