@@ -154,7 +154,7 @@ main > picture > source {
 
 /*configuração texto apresentaçao*/
 main > div {
-    max-width: 90%;
+    max-width: 98%;
     margin: auto;
     border-radius: 7px;
     background-color: aliceblue;
@@ -163,7 +163,7 @@ main > div {
     
     
 }
-main > div > h2 {
+h2#apres {
     color: black;
     font-size: 100%;
     font-weight: 400;
@@ -178,7 +178,7 @@ main > div > h2 {
     
     
 }
-main > div > h2 > strong {
+h2#apres > strong {
     color: var(--OrangeLogo);
 }
 /*configuração texto apresentaçao*/
@@ -187,6 +187,28 @@ main > div > h2 > strong {
 /*configuração da caixa de fotos*/
 div#trab p {
     color: var(--OrangeLogo);
+    padding: 5px;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+
+}
+div#trab img {
+    
+    width: 45%;
+    padding: 3px;
+    padding-left: 8px;
+    max-width: 240px;
+    
+}
+div#basefotos {
+    width: 1020px;
+    align-content: center;
 }
 /*configuração da caixa de fotos*/
 
@@ -195,11 +217,12 @@ footer > p {
     text-align: center;
     color: var(--OrangeLogo);
     background-color: black;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 footer > p > a {
     color: antiquewhite;
