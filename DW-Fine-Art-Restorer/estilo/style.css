@@ -132,15 +132,19 @@ main {
     min-width: 270px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 120px;
+    padding-top: 100px;
     margin: auto;
+    margin-top: 50px;
 }
 img {
     width: 100%;
+    margin-top: 5%;
     margin-top: 50px;
 }
 main > picture > source {
     max-width: 320px;
+    
+    
 }
 /*configuração foto capa*/
 
