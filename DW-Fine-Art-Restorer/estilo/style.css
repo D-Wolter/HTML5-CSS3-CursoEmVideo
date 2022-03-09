@@ -21,14 +21,14 @@ body {
 
 header {
     position: relative;
-    height: 20px;
+    height: 16px;
 }
 header > nav {
     color: antiquewhite;
     background-color: var(--OrangeLogo);
     text-align-last: right;
     font-family: 'Raleway', sans-serif;
-    height: 28px;
+    height: 25px;
     padding-top: 6px;
     position: fixed;
     width: 100%;
@@ -39,7 +39,7 @@ nav > a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 800;
-    padding: 10px 5px;
+    padding: 7px 5px;
     background-color: var(--OrangeLogo);
 }
 nav > a:hover {
@@ -53,14 +53,14 @@ nav > a:hover {
 /* configuração do banner*/
      /* configuração do banner localizado florianopolis*/
 header > div.fln {
-    position: fixed;
+    position: absolute;
     background-color: black;
     width: 100%;
     height: 20px;
-    margin-top: 34px;
+    margin-top: 30px;
 }p#fln {
     background-color: black;
-    color: antiquewhite;
+    color: rgb(185, 177, 165);
     text-align: right;
     font-size: 11px;
     font-weight: 100;
@@ -103,6 +103,7 @@ td img#foto {
     width: 80%;
     margin-left: 20px;
     margin-top: 1vw;
+    border-radius: 4px;
 }
        /* configuração da foto mao*/
        /* configuração dos contatos*/
@@ -117,9 +118,10 @@ p#email {
     margin-bottom: 15px;
     margin-right: 15px;
     text-decoration: none;
+    color: rgb(185, 177, 165);
 }
 a#cont {
-    color: antiquewhite;
+    color: rgb(185, 177, 165);
     text-decoration: none;
 }
        /* configuração dos contatos*/
