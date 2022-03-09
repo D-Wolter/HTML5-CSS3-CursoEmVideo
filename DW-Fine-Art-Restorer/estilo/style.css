@@ -14,6 +14,7 @@
 body {
     background-color: rgb(143, 143, 143);
     margin: 0%;
+    width: 100%;
 }
 /*Configuraçãoes globais*/
 
@@ -39,6 +40,7 @@ nav > a {
     font-size: 14px;
     font-weight: 800;
     padding: 10px 5px;
+    background-color: var(--OrangeLogo);
 }
 nav > a:hover {
     background-color: rgb(51, 51, 51);
@@ -55,20 +57,84 @@ header > div.fln {
     height: 20px;
     margin-top: 34px;
 }p#fln {
+    background-color: black;
     color: antiquewhite;
     text-align: right;
     font-size: 11px;
     font-weight: 100;
     padding: 3px;
+    padding-right: 8px;
     
 
 }
 /* configuração do banner localizado florianopolis*/
-header > div.banner {
+
+
+
+table  {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 120px;
+    border-collapse: collapse; 
+}
+td  {
+    
+    padding-top: 15px;
+    color: antiquewhite;
     background-color: black;
-    position: static;
-    height: 140px;
-    margin-top: 0px;
+    
+}
+td#logoimg {
+    
+    width: 10%;
+    margin-left: 20%;
+}
+td#logoName {
+    font-size: 4vw;
+    padding-left: 20px;
+    color: rgb(189, 92, 27);
+    
+}
+td#logoName strong {
+    color: antiquewhite;
+}
+
+td img#foto {
+    width: 80%;
+    margin-left: 20px;
+}
+tr#cont {
+    height: 20px;
+    margin: 0px;
+}
+td#contatos {
+    font-size: 12px;
+    text-align: right;
+    
+}
+tr.linha {
+    background-color: aquamarine;
+}
+td.win {
+    background-color: blueviolet;
+}
+p#email {
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+a#cont {
+    color: antiquewhite;
+    text-decoration: none;
+}
+a#cont::after {
+    color: antiquewhite;
+    text-decoration: none;
+}
+tr#log {
+    
 }
 /* configuração do banner*/
 
@@ -76,9 +142,9 @@ header > div.banner {
 
 
 main {
-    min-width: 280px;
-    padding-left: 20px;
-    padding-right: 20px;
+    min-width: 270px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 120px;
     margin: auto;
 }
