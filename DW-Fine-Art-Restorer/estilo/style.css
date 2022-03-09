@@ -107,8 +107,10 @@ td img#foto {
        /* configuração da foto mao*/
        /* configuração dos contatos*/
 td#contatos {
-    font-size: 12px;
+    font-size: 80%;
     text-align: right;
+    font-weight: 300;
+    
 }
 p#email {
     margin: 0px;
@@ -145,31 +147,28 @@ main > picture > source {
 
 /*configuração texto apresentaçao*/
 main > div {
-    max-width: 840px;
+    max-width: 90%;
     margin: auto;
-    padding-bottom: 50px;
     border-radius: 7px;
     background-color: aliceblue;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
+    
 }
 main > div > h2 {
-    color: var(--OrangeLogo);
-    font-size: 18px;
+    color: black;
+    font-size: 130%;
     font-weight: 400;
     margin:auto;
-    max-width: 790px;
+    max-width: 1200px;
     text-align: center;
-    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 50px;
-    line-height: 22px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
 }
 main > div > h2 > strong {
-    color: black;
+    color: var(--OrangeLogo);
 }
 /*configuração texto apresentaçao*/
 
