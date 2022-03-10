@@ -200,7 +200,7 @@ div#trab p {
 }
 div#trab img {
     
-    width: 45%;
+    width: 44%;
     
     padding-left:2px;
     max-width: 190px;
@@ -218,7 +218,7 @@ footer > p {
     text-align: center;
     color: var(--OrangeLogo);
     background-color: black;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
     margin-top: 10px;
