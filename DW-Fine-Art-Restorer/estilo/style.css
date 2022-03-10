@@ -29,7 +29,7 @@ header > nav {
     text-align-last: right;
     font-family: 'Raleway', sans-serif;
     height: 25px;
-    padding-top: 6px;
+    padding-top: 5px;
     position: fixed;
     width: 100%;
 }
@@ -39,7 +39,7 @@ nav > a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 800;
-    padding: 7px 5px;
+    padding: 6px 5px;
     background-color: var(--OrangeLogo);
 }
 nav > a:hover {
@@ -203,11 +203,11 @@ div#trab img {
     width: 45%;
     
     padding-left:2px;
-    max-width: 200px;
+    max-width: 190px;
     
 }
 div#basefotos {
-    width: 825px;
+    width: 790px;
     align-content: center;
     border: 8px solid white;
 }
