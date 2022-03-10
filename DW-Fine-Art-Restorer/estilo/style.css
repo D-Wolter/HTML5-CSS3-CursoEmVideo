@@ -284,10 +284,10 @@ h2#apres > strong {
 
 /*configuração da caixa de fotos*/
 div#trab p {
-    color: var(--OrangeLogo);
+    color: black;
     padding: 3px 6px;
     text-align: justify;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 15px;
     margin-top: 20px;
     max-width: 500px;
@@ -321,17 +321,22 @@ section {
 /*configuração do rodape*/
 footer > p {
     text-align: center;
-    color: var(--OrangeLogo);
+    color: antiquewhite;
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: 200;
     
 }
 footer > p > a {
-    color: antiquewhite;
+    color: var(--OrangeLogo);
     text-decoration: none;
+}
+section p strong {
+    font-weight: 400;
+    color: var(--OrangeLogo);
 }
 /*configuração do rodape*/
