@@ -209,6 +209,7 @@ div#trab img {
 div#basefotos {
     width: 825px;
     align-content: center;
+    border: 8px solid white;
 }
 /*configuração da caixa de fotos*/
 
