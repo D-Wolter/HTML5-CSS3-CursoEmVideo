@@ -11,6 +11,8 @@ div#interface {
     margin: 40px 0px 0px 20px;
     box-shadow: 0px 0px 10px gray;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 div#interface figure {
     margin: 0px;
@@ -112,4 +114,19 @@ nav#menu a {
 nav#menu a:hover {
     color: blue;
     text-decoration: underline;
+}
+
+
+
+/*tabela especificaçoes*/
+table#tabelaspec {
+    border: 1px solid gray;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: 1px solid gray;
+    
+
 }
