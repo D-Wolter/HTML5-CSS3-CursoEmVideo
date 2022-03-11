@@ -284,7 +284,7 @@ h2#apres {
     
 }
 h2#apres > strong {
-    color: var(--OrangeLogo);
+    color: rgb(113, 66, 240);
 }
 /*configuração texto apresentaçao*/
 
@@ -339,11 +339,11 @@ footer > p {
     
 }
 footer > p > a {
-    color: var(--OrangeLogo);
+    color: rgb(110, 194, 110);
     text-decoration: none;
 }
 section p strong {
     font-weight: 400;
-    color: var(--OrangeLogo);
+    color: green;
 }
 /*configuração do rodape*/
