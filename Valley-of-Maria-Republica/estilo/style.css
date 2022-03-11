@@ -25,7 +25,7 @@ header {
 }
 header > nav {
     color: antiquewhite;
-    background-color: var(--OrangeLogo);
+    background-color: white;
     text-align-last: right;
     font-family: 'Raleway', sans-serif;
     height: 25px;
@@ -40,11 +40,11 @@ nav > a {
     font-size: 14px;
     font-weight: 800;
     padding: 6px 5px;
-    background-color: var(--OrangeLogo);
+    background-color: white;
 }
 nav > a:hover {
     background-color: rgb(51, 51, 51);
-    color:var(--OrangeLogo);
+    color: rgb(113, 66, 240);
     transition-duration: 0.5s;
 }
 /* configuração do navegador de links*/
@@ -60,7 +60,7 @@ header > div.fln {
     margin-top: 30px;
 }p#fln {
     background-color: black;
-    color: rgb(185, 177, 165);
+    color: rgb(219, 219, 219);
     text-align: right;
     font-size: 11px;
     font-weight: 100;
@@ -86,21 +86,22 @@ header td  {
        /* configuração da divisoria do logo,img e contatos*/
        /* configuração da fonte logo*/
 td#logoName {
-    font-size: 4vw;
-    padding-left: 20px;
-    color: rgb(189, 92, 27);
+    font-size: 19px;
+    padding-left: 30px;
+    color: rgb(113, 66, 240);
 }
 td#logoName strong {
+    font-size: 30px;
     color: antiquewhite;
 }
        /* configuração da fonte logo*/
        /* configuração da foto mao*/
 td#logoimg {
-    width: 10%;
+    width: 13%;
     margin-left: 10%;
 }
 td img#foto {
-    width: 80%;
+    width: 100%;
     margin-left: 20px;
     margin-top: 1vw;
     border-radius: 4px;
@@ -118,10 +119,10 @@ p#email {
     margin-bottom: 15px;
     margin-right: 15px;
     text-decoration: none;
-    color: rgb(185, 177, 165);
+    color: rgb(219, 219, 219);
 }
 a#cont {
-    color: rgb(185, 177, 165);
+    color: rgb(219, 219, 219);
     text-decoration: none;
 }
        /* configuração dos contatos*/
@@ -154,6 +155,7 @@ main > picture > source {
 
 /*configuração menu contacte-nos*/
 .anticont {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -168,10 +170,11 @@ main > picture > source {
     font-size: 14px;
     line-height: 30px;
     color: #777;
-    background-color: rgb(236, 167, 87);
+    background-color: rgb(156, 176, 241);
     height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
     
 }
 .container {
@@ -181,10 +184,14 @@ main > picture > source {
     
     
 }
+.container h3 {
+    color: rgb(113, 66, 240);;
+}
 .container h4 {
     margin: 0;
     padding: 0;
     font-size: 9px;
+    color: rgb(113, 66, 240);
 }
 #contact input[type="text"],
 #contact input[type="email"],
@@ -231,13 +238,13 @@ fieldset {
     cursor: pointer;
     width: 100%;
     border: none;
-    background: rgb(182, 130, 70);
+    background: rgb(113, 66, 240);
     color: white;
     margin: 10px;
     padding: 15px;
 }
 #contact button[type="submit"]:hover {
-    background: rgb(224, 116, 26);
+    background: rgb(113, 66, 240);
     -webkit-transition: background 0.3s ease-in-out;
     moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -325,7 +332,7 @@ footer > p {
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 200;
