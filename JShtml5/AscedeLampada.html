@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        
+        var quebrada = false;
+        function interruptor (tipo) {
+            if (tipo == acesa) {
+                arquivo='imagens/acesa.png'
+            }
+            if (tipo == apagada) {
+                arquivo ='imagens/apagada.png'
+            }
+            if (tipo == quebrada) {
+                arquivo ='imagens/quebrada.jpg'
+            }
+            if (!quebrada) {
+                document.getElementById('luz').src='imagens/' + tipo + '.png';
+                if (tipo == 'quebrada') {
+                    quebrada = true;
+                }
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <h1>testando Java</h1>
+    <script>
+        /*alert('Daniel Wolter')*/
+        document.write('Daniel Wolter hoje é dia ' + Date());
+    </script>
+    <h1>Acenda Lampada</h1>
+    
+    <img src="imagens/apagada.png" id="luz" alt="Clique e acenda a lampada" onmousemove="interruptor('lacesa')" onmouseout="interruptor(lampada-apagada)" onclick="interruptor('lampada-quebrada')">
+</body>
+</html>
